@@ -1181,10 +1181,10 @@ InputSync.prototype ={
 DR_EXPLAIN.namespace( 'DR_EXPLAIN.data_menu' );
 DR_EXPLAIN.data_menu = {
     // menu
-    DREX_NODE_NAMES: ["Title","1. First topic","2. Second topic","A topic without number","1.1. First subtopic"],
-    DREX_NODE_LINKS: ["index.htm","first_topic.htm","second_topic.htm","a_topic_without_number.htm","first_subtopic.htm"],
-    DREX_NODE_CHILD_START: [1,4,5,5,5],
-    DREX_NODE_CHILD_END: [4,5,5,5,5],
+    DREX_NODE_NAMES: ["Titulo","Tabla de contenidos","1. Introdución","2. Diferencias entre las transacciones de STR , EWM y IM-MM","3. Que es SAP GUI","4. ¿Cómo ingresar o “loguearse”? ","5. Vetana principal","6. Crear acceso de transacciones en la carpeta favoritos","7. Menu de favoritos en SAP","8. Activación y desactivación de los nombres técnicos en SAP GUI","9.  --Campo comandos --","10. Teclas de Acceso SAP GUI PC","11. Teclas de Acceso  de la Radiofrecuencia(RF) dede PC","12. Accesos directos desde la PC","13. Buscar transacciones","14. Filtros en SAP","15. Salir de recurso en SAP","16. Opciones de Visualización","17. Variantes de visualización en SAP (STRM, Ewm, MM) ","18. Exportar Reportes en Excel de SAP","19. Cambiar el aspecto de la interface de SAP GUI","2.1. STRm (Stock Room Management)","2.2. EWM (Extended Warehouse Management)","2.3. IM-MM (Inventory Management - Material Management)","2.4. Resumen de diferencias clave STRM , EWM y IM-MM","7.1. Exportar menú de favoritos","7.2. Importar menú de favoritos","9.1. /0 = ir a transacciones seleccionadas","9.2. /N= abrir transacciones en la misma ventana","10.1. Copiado Cont +Y","10.2. Impresion Control+P","10.3. Visualizar matchcode= F4","10.4. Ejecutar= F8","17.1. Variantes de visualización MM","17.2. Variantes de visualización STRM","17.3. Variantes de visualización EWM"],
+    DREX_NODE_LINKS: ["index.htm","tabla_de_contenidos.htm","introducion.htm","diferencias_entre_las_transacciones_de_str___ewm_y_im_mm.htm","que_es_sap_gui.htm","_como_ingresar_o__loguearse___.htm","vetana_principal.htm","crear_acceso_de_transacciones_en_la_carpeta_favoritos.htm","menu_de_favoritos_en_sap.htm","activacion_y_desactivacion_de_los_nombres_tecnicos_en_sap_gui.htm","___campo_comandos___.htm","teclas_de_acceso_sap_gui_pc.htm","teclas_de_acceso__de_la_radiofrecuencia_rf__dede_pc.htm","accesos_directos_desde_la_pc.htm","buscar_transacciones.htm","filtros_en_sap.htm","salir_de_recurso_en_sap.htm","opciones_de_visualizacion.htm","variantes_de_visualizacion_en_sap__strm__ewm__mm__.htm","exportar_reportes_en_excel_de_sap.htm","cambiar_el_aspecto_de_la_interface_de_sap_gui.htm","strm__stock_room_management_.htm","ewm__extended_warehouse_management_.htm","im_mm__inventory_management___material_management_.htm","resumen_de_diferencias_clave_strm___ewm_y_im_mm.htm","exportar_menu_de_favoritos.htm","importar_menu_de_favoritos.htm","_0___ir_a_transacciones_seleccionadas.htm","_n__abrir_transacciones_en_la_misma_ventana.htm","copiado_cont__y.htm","impresion_control_p.htm","visualizar_matchcode__f4.htm","ejecutar__f8.htm","variantes_de_visualizacion_mm.htm","variantes_de_visualizacion_strm.htm","variantes_de_visualizacion_ewm.htm"],
+    DREX_NODE_CHILD_START: [1,21,21,21,25,25,25,25,25,27,27,29,33,33,33,33,33,33,33,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36],
+    DREX_NODE_CHILD_END: [21,21,21,25,25,25,25,25,27,27,29,33,33,33,33,33,33,33,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36],
     DREX_MENU_TYPE: 2,
     DREX_HAS_ROOT_NODE: 0};
 
@@ -1197,9 +1197,9 @@ DR_EXPLAIN.data_search = {
     DREXPLAIN_NOT_FOUND: "Nothing was found",
     DREXPLAIN_EMPTY_STRING: "Please, enter a string for search!",
     DREXPLAIN_IN_PROGRESS: "Searching...",
-    DREXPLAIN_PREVIEW_MODE_SEARCH_IS_DISABLED_NOTICE : "In the preview mode the search is disabled.",
-    DREXPLAIN_ERROR_LOCAL_SEARCH : "Unable to download search index files. Please, upload HTML files to a web server and access them via URL starting with https:// or http:// .",
-    DREXPLAIN_ERROR_REMOTE_SEARCH : "Unable to download search index files. Please, ask your web server administrator to enable the downloading of files with .json extension or contact help@drexplain.com. Error code: {0}"
+    DREXPLAIN_PREVIEW_MODE_SEARCH_IS_DISABLED_NOTICE : "La b&#x00FA;squeda en el modo de vista previa est&#x00E1; desactivada.",
+    DREXPLAIN_ERROR_LOCAL_SEARCH : "No se pueden descargar archivos de &#x00ED;ndice de b&#x00FA;squeda. Cargue los archivos HTML en un servidor web y acceda a ellos a trav&#x00E9;s de una URL que comience con https:// o http:// .",
+    DREXPLAIN_ERROR_REMOTE_SEARCH : "No se pueden descargar archivos de &#x00ED;ndice de b&#x00FA;squeda. Solicite al administrador de su servidor web que permita la descarga de archivos con extensi&#x00F3;n .json o p&#x00F3;ngase en contacto con help@drexplain.com. C&#x00F3;digo de error: {0}"
 
 };
 
